@@ -1,7 +1,8 @@
+# Crear base de datos desde cero:
 create schema tienda_zapatillas;
 use tienda_zapatillas;
 
-#Creamos tabla zapatillas
+#Creamos la tabla Zapatillas especificando para cada columna sus características:
 create table Zapatillas (
 id_zapatilla int auto_increment not null,
 modelo varchar(45) not null,
@@ -9,7 +10,7 @@ color varchar(45) not null,
 primary key (id_zapatilla)
 );
 
-# Creamos tabla clientes
+# Creamos la tabla Clientes especificando para cada columna sus características:
 create table Clientes (
 id_cliente int auto_increment not null,
 nombre varchar(45) not null,
@@ -23,7 +24,7 @@ codigo_postal varchar(45) not null,
 primary key (id_cliente)
 );
 
-# Creamos tabla empleados
+# Creamos tabla empleadosespecificando para cada columna sus características:
 create table Empleados (
 id_empleado int auto_increment not null,
 nombre varchar(45) not null,
@@ -33,7 +34,7 @@ fecha_incorporacion date not null,
 primary key (id_empleado)
 );
 
-# Creamos tabla facturas
+# Creamos la tabla Facturas especificando para cada columna sus características:
 create table Facturas (
 id_factura int auto_increment not null,
 numero_factura varchar(45) not null,
