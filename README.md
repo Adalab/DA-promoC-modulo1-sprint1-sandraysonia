@@ -4,7 +4,9 @@ EJERCICIOS REALIZADOS PYTHON
 X - Leccion1 - Variables
 X - Leccion2 - Listas 1
 X - Leccion3 - Listas 2
+X - Leccion4 - Diccionarios
 
 EJERCICIOS REALIZADOS SQL
-X - Leccion1 - Creación de tablas
-X - Leccion2 - Alteración de tablas
+X - Leccion1 - Creacion de tablas
+X - Leccion2 - Alteracion de tablas
+X - Leccion3 - Insercion de datos
